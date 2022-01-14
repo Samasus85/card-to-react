@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Comment from './components/Comment/Comment'
+import Card from './ui/Cards/Card'
+import Peaksoft from './components/img/image.png'
+
+
+const comment = {
+  date: new Date(),
+  text: "Let's learn React together, join us!",
+  author: {
+    name: 'I am a student of peaksoft school Samara.',
+    avatarUrl: Peaksoft,
+  },
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div>
+        <Card>
+          <Comment author={comment.author} date={comment.date} text={comment.text} />
+        </Card>
+
+      </div>
+
     </div>
   );
 }
