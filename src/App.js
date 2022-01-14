@@ -1,15 +1,15 @@
 import './App.css'
 import Comment from './components/Comment/Comment'
 import Card from './ui/Cards/Card'
-import Peaksoft from './components/img/image.png'
+import MyPhoto from './components/img/image.png'
 
 
 const comment = {
   date: new Date(),
   text: "Let's learn React together, join us!",
   author: {
-    name: 'I am a student of peaksoft school Samara.',
-    avatarUrl: Peaksoft,
+    name: 'I am a student of Peaksoft school Samara.',
+    avatarUrl: MyPhoto,
   },
 };
 
