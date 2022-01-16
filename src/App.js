@@ -6,7 +6,7 @@ import Peaksoft from './components/img/image.png'
 
 const comment = {
   date: new Date(),
-  text: "Let's learn React together, join us!",
+  text: "Let's learn React together, join us. Learning JS is awersome!",
   author: {
     name: 'I am a student of peaksoft school Samara.',
     avatarUrl: Peaksoft,
