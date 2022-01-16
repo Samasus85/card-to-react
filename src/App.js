@@ -1,7 +1,7 @@
 import './App.css'
 import Comment from './components/Comment/Comment'
 import Card from './ui/Cards/Card'
-import Peaksoft from './components/img/image.png'
+import Samara from './ui/img/image.png'
 
 
 const comment = {
@@ -9,7 +9,7 @@ const comment = {
   text: "Let's learn React together, join us. Learning JS is awersome!",
   author: {
     name: 'I am a student of peaksoft school Samara.',
-    avatarUrl: Peaksoft,
+    avatarUrl: Samara,
   },
 };
 
